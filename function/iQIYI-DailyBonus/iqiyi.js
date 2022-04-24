@@ -39,7 +39,7 @@ async function start() {
         return
     }
     // 下载最新代码
-    await downFile();
+    //await downFile();
     console.log('下载代码完毕')
     // 替换变量
     await changeFiele();
